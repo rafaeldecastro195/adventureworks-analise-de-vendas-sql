@@ -9,7 +9,7 @@ Análise de vendas respondendo perguntas de negócio com SQL Server, do SELECT b
 
 | Nível | Conteúdo | Arquivo | Status |
 |-------|----------|---------|--------|
-| 1 | SELECT, WHERE, ORDER BY, TOP, DISTINCT, COUNT | [`nivel1.sql`]([sql/01_nivel1_select_basico.sql](https://github.com/rafaeldecastro195/adventureworks-analise-de-vendas-sql/tree/main/sql/n1)) | Concluído |
+| 1 | SELECT, WHERE, ORDER BY, TOP, DISTINCT, COUNT | [`nivel1.sql`]((https://github.com/rafaeldecastro195/adventureworks-analise-de-vendas-sql/blob/main/sql/n1/nivel1.sql)) | Concluído |
 | 2 | COUNT, SUM, AVG, GROUP BY, HAVING | `nivel2.sql` | Planejado |
 | 3 | INNER JOIN com 2 tabelas | `nivel3.sql` | Planejado |
 | 4 | INNER JOIN com 3 ou mais tabelas e agregações | `nivel4.sql` | Planejado |
