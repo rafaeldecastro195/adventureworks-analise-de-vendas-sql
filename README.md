@@ -17,7 +17,7 @@ Análise de vendas respondendo perguntas de negócio com SQL Server, do SELECT b
 
 ## Como reproduzir
 
-1. Baixe e restaure o banco [`AdventureWorks2017`]((https://learn.microsoft.com/pt-br/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)) no SQL Server.
+1. Baixe e restaure o banco [`AdventureWorks2017`](https://learn.microsoft.com/pt-br/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms) no SQL Server.
 2. Abra os arquivos da pasta `sql/` no SSMS e execute as queries.
 3. Os nomes de tabelas seguem o padrão `Schema.Tabela` (por exemplo, `Sales.SalesOrderHeader`).
 
