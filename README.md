@@ -133,4 +133,4 @@ WHERE OrderDate >= '2013-01-01'
 
 ## Sobre mim
 
-Rafael Moreira Arantes de Castro · Estudante de Sistemas de Informação (PUC Minas) · [PREENCHER: link do LinkedIn]
+Rafael Moreira Arantes de Castro · Estudante de Sistemas de Informação (PUC Minas) · [Acesse meu perfil do LinkedIn](https://www.linkedin.com/in/rafael-de-castro-253b21277/)
