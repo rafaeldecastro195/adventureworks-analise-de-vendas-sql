@@ -9,11 +9,11 @@ Análise de vendas respondendo perguntas de negócio com SQL Server, do SELECT b
 
 | Nível | Conteúdo | Arquivo | Status |
 |-------|----------|---------|--------|
-| 1 | SELECT, WHERE, ORDER BY, TOP, DISTINCT, COUNT | [`01_nivel1_select_basico.sql`](sql/01_nivel1_select_basico.sql) | Concluído |
-| 2 | COUNT, SUM, AVG, GROUP BY, HAVING | `02_nivel2_agregacoes.sql` | Planejado |
-| 3 | INNER JOIN com 2 tabelas | `03_nivel3_inner_join.sql` | Planejado |
-| 4 | INNER JOIN com 3 ou mais tabelas e agregações | `04_nivel4_joins_multiplos.sql` | Planejado |
-| 5 | LEFT JOIN, CTE, funções de janela | `05_nivel5_avancado.sql` | Planejado |
+| 1 | SELECT, WHERE, ORDER BY, TOP, DISTINCT, COUNT | [`nivel1.sql`](sql/01_nivel1_select_basico.sql) | Concluído |
+| 2 | COUNT, SUM, AVG, GROUP BY, HAVING | `nivel2.sql` | Planejado |
+| 3 | INNER JOIN com 2 tabelas | `nivel3.sql` | Planejado |
+| 4 | INNER JOIN com 3 ou mais tabelas e agregações | `nivel4.sql` | Planejado |
+| 5 | LEFT JOIN, CTE, funções de janela | `nivel5.sql` | Planejado |
 
 ## Como reproduzir
 
