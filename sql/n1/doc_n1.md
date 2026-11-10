@@ -16,7 +16,7 @@ ORDER BY ListPrice DESC;
 
 **Resultado:**
 
-![Resultado da pergunta 1](../img/n1/p1_n1.png)
+![Resultado da pergunta 1](../../img/n1/p1_n1.png)
 
 **Insight:** [PREENCHER: 2 ou 3 frases. O que os produtos do topo têm em comum? Qual a faixa de preço? Use os números reais do resultado.]
 
@@ -38,7 +38,7 @@ ORDER BY Color;
 
 **Resultado:**
 
-![Resultado da pergunta 2](img/n1/p2_n1.png)
+![Resultado da pergunta 2](../../img/n1/p2_n1.png)
 
 **Insight:** [PREENCHER: quantas cores existem? O `NULL` (produto sem cor definida) aparece primeiro na ordenação.]
 
