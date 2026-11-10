@@ -96,4 +96,3 @@ WHERE OrderDate >= '2013-01-01'
 
 - `Color` tem valores `NULL`, que significam produto sem cor definida.
 - A coluna `Status` de `Sales.SalesOrderHeader` tem um único valor distinto na base, então não foi usada nas análises.
-- [PREENCHER: outras observações que surgirem ao rodar as queries.]
