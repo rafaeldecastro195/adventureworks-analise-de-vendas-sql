@@ -18,7 +18,6 @@ ORDER BY ListPrice DESC;
 
 ![Resultado da pergunta 1](../../img/n1/p1_n1.png)
 
-**Insight:** [PREENCHER: 2 ou 3 frases. O que os produtos do topo têm em comum? Qual a faixa de preço? Use os números reais do resultado.]
 
 Esta pergunta tem um gancho para os níveis seguintes: cruzar esses produtos com as vendas (`SalesOrderDetail`) para ver se os mais caros também vendem bem.
 
@@ -40,8 +39,9 @@ ORDER BY Color;
 
 ![Resultado da pergunta 2](../../img/n1/p2_n1.png)
 
-**Insight:** [PREENCHER: quantas cores existem? O `NULL` (produto sem cor definida) aparece primeiro na ordenação.]
+**Insight:** O catálogo trabalha com 9 cores, incluindo categorias combinadas (`Multi` e `Silver/Black`) que precisam ser tratadas como grupos próprios em qualquer análise por cor. Há também produtos sem cor definida (`NULL`), que devem ser separados nas análises para não distorcer os totais.
 
+Esta pergunta tem ganchos para os níveis seguintes: no nível 2, contar quantos produtos há por cor e quantos estão sem cor definida; nos níveis com JOIN, cruzar as cores com as vendas para ver quais são as mais e as menos vendidas.
 ---
 
 ### 3. Quais pedidos de 2013 tiveram valor total acima de 10 mil?
@@ -61,15 +61,15 @@ ORDER BY TotalDue DESC;
 
 **Resultado:**
 
-![Resultado da pergunta 3](img/nivel1/p03_resultado.png)
+![Resultado da pergunta 3](../../img/n1/p3_n1.png)
 
-**Insight:** [PREENCHER: quantas linhas voltaram? Qual o maior valor? Há algum cliente que se repete?]
+**Insight:**
 
 **Nota técnica:** o filtro de data usa `>=` e `<` (o dia 1º do ano seguinte como limite) em vez de `BETWEEN`. Assim nenhum pedido feito durante o último dia do ano fica de fora, mesmo que o campo tenha horário.
 
 ---
 
-### 3.1. Quantos pedidos de 2013 tiveram valor total acima de 10 mil?
+### 4. Quantos pedidos de 2013 tiveram valor total acima de 10 mil?
 
 **Contexto:** dimensionar quantos pedidos de alto valor houve em 2013, complementando a lista da pergunta 3.
 
@@ -85,9 +85,9 @@ WHERE OrderDate >= '2013-01-01'
 
 **Resultado:**
 
-![Resultado da pergunta 3.1](img/nivel1/p03_1_resultado.png)
+![Resultado da pergunta 4](../../img/n1/p4_n1.png)
 
-**Insight:** [PREENCHER: a contagem bate com o número de linhas da pergunta 3? Esse total é grande ou pequeno perto do total de pedidos do ano? (essa comparação fica mais fácil no nível 2)]
+**Insight:**
 
 ---
 
