@@ -41,7 +41,8 @@ ORDER BY Color;
 
 **Insight:** O catálogo trabalha com 9 cores, incluindo categorias combinadas (`Multi` e `Silver/Black`) que precisam ser tratadas como grupos próprios em qualquer análise por cor. Há também produtos sem cor definida (`NULL`), que devem ser separados nas análises para não distorcer os totais.
 
-Esta pergunta tem ganchos para os níveis seguintes: no nível 2, contar quantos produtos há por cor e quantos estão sem cor definida; nos níveis com JOIN, cruzar as cores com as vendas para ver quais são as mais e as menos vendidas.
+Esta pergunta tem ganchos para os níveis seguintes: para o nível 2, contar quantos produtos há por cor e quantos estão sem cor definida; nos níveis com `JOIN`, cruzar as cores com as vendas para se determinar quais são as mais e menos presentes nas vendas dos produtos.
+
 ---
 
 ### 3. Quais pedidos de 2013 tiveram valor total acima de 10 mil?
