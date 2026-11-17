@@ -20,8 +20,8 @@ ORDER BY Color;
 SELECT SalesOrderID, OrderDate, CustomerID, TotalDue
 FROM Sales.SalesOrderHeader
 WHERE OrderDate >= '2013-01-01' 
- AND OrderDate < '2014-01-01' 
- AND TotalDue > 10000
+    AND OrderDate < '2014-01-01' 
+    AND TotalDue > 10000
 ORDER BY TotalDue DESC;
 
 /* Pergunta 3.1.: Qual o total de pedidos feitos em 2013 que tiveram valor total acima de 10 mil? */
@@ -29,7 +29,7 @@ ORDER BY TotalDue DESC;
 SELECT COUNT(*) AS QtdPedidosAcima10Mil
 FROM Sales.SalesOrderHeader
 WHERE OrderDate >= '2013-01-01' 
- AND OrderDate < '2014-01-01' 
- AND TotalDue > 10000;
+    AND OrderDate < '2014-01-01' 
+    AND TotalDue > 10000;
 
 
