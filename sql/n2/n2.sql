@@ -2,7 +2,6 @@
 /* ----------------------------------------------- */
 
 /* Pergunta 1: Quantos pedidos e qual o faturamento total por ano? */
-
 SELECT 
 YEAR(OrderDate) AS Ano, 
 COUNT(*) AS TotalPedidos,
